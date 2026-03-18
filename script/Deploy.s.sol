@@ -1,20 +1,18 @@
+
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.24;
 
 import {Script} from "forge-std/Script.sol";
-import {console2} from "forge-std/console2.sol";
+import {CreditLoopController} from "src/CreditLoopController.sol";
 
-import { CreditLoopController } from "src/CreditLoopController.sol";
-
-contract Deploy is Script {
+contract DeployScript is Script {
     function run() external returns (CreditLoopController deployed) {
         address admin = vm.envAddress("ADMIN_WALLET_ADDRESS");
         address operator = vm.envAddress("OPERATOR_WALLET_ADDRESS");
-
+        address reporter = vm.envAddress("REPORTER_WALLET_ADDRESS");
+        uint256 principalFloor = vm.envUint("INITIAL_PRINCIPAL_FLOOR");
         vm.startBroadcast();
-        deployed = new CreditLoopController(admin, operator);
+        deployed = new CreditLoopController(admin, operator, reporter, principalFloor);
         vm.stopBroadcast();
-
-        console2.log("Deployed CreditLoopController at", address(deployed));
     }
 }

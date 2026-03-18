@@ -1,9 +1,13 @@
+
 [project]
 name = "synthesis_bondcredit"
 version = "0.1.0"
 description = "A bounded GMX trading desk that journals risk, routes profits toward compute or treasury replenishment, and prepares credit receipts."
 readme = "README.md"
 requires-python = ">=3.13"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
 
 [tool.ruff]
 line-length = 100
