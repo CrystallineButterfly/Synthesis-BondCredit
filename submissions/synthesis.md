@@ -1,6 +1,6 @@
 # CreditLoop Perps Agent
 
-- **Repo:** TODO_GITHUB_URL/Synthesis-BondCredit
+- **Repo:** https://github.com/CrystallineButterfly/Synthesis-BondCredit-
 - **Primary track:** Bond.credit Agents that Pay
 - **Overlap targets:** Bankr Gateway, Uniswap Agentic Finance, Lido stETH Treasury, ERC-8004 Receipts, PayWithLocus, MetaMask Delegations
 - **Primary contract:** CreditLoopController
