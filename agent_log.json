@@ -9,7 +9,7 @@
     }
   },
   {
-    "timestamp": "2026-03-18T21:43:53+00:00",
+    "timestamp": "2026-03-18T23:01:06+00:00",
     "stage": "discover",
     "actor": "agent_runtime",
     "message": "Ranked local signals.",
@@ -39,25 +39,25 @@
     }
   },
   {
-    "timestamp": "2026-03-18T21:43:53+00:00",
+    "timestamp": "2026-03-18T23:01:06+00:00",
     "stage": "plan",
     "actor": "agent_runtime",
     "message": "Built bounded plan.",
     "details": {
-      "plan_id": "0x0e720662f857b187dc892088280387771f4cdd2d12cda737e20b56c2d89701df"
+      "plan_id": "0x52303eea2aab2139897887701b6d3e6f1546848d068eba36ecd01a0adfce90ad"
     }
   },
   {
-    "timestamp": "2026-03-18T21:43:53+00:00",
+    "timestamp": "2026-03-18T23:01:06+00:00",
     "stage": "dry_run",
     "actor": "agent_runtime",
     "message": "Prepared partner previews.",
     "details": {
-      "simulation_hash": "0x8c9bf81fd03c56368392e2fc223072e29683b4ef431be949685d7253f933b6b3"
+      "simulation_hash": "0x3258acae5e72c6dcde5a66d076c7026741485cd914218cb4a0f0090061ec3aa3"
     }
   },
   {
-    "timestamp": "2026-03-18T21:43:53+00:00",
+    "timestamp": "2026-03-18T23:01:06+00:00",
     "stage": "execute",
     "actor": "agent_runtime",
     "message": "Skipped live execution.",
@@ -77,7 +77,7 @@
     }
   },
   {
-    "timestamp": "2026-03-18T21:43:53+00:00",
+    "timestamp": "2026-03-18T23:01:06+00:00",
     "stage": "verify",
     "actor": "agent_runtime",
     "message": "Wrote verification.",
@@ -85,15 +85,15 @@
       "status": "verified",
       "project_name": "CreditLoop Perps Agent",
       "track": "Bond.credit Agents that Pay",
-      "plan_id": "0x0e720662f857b187dc892088280387771f4cdd2d12cda737e20b56c2d89701df",
-      "simulation_hash": "0x8c9bf81fd03c56368392e2fc223072e29683b4ef431be949685d7253f933b6b3",
+      "plan_id": "0x52303eea2aab2139897887701b6d3e6f1546848d068eba36ecd01a0adfce90ad",
+      "simulation_hash": "0x3258acae5e72c6dcde5a66d076c7026741485cd914218cb4a0f0090061ec3aa3",
       "execution_status": "awaiting_credentials",
       "tx_ids": [],
-      "created_at": "2026-03-18T21:43:53+00:00"
+      "created_at": "2026-03-18T23:01:06+00:00"
     }
   },
   {
-    "timestamp": "2026-03-18T21:43:53+00:00",
+    "timestamp": "2026-03-18T23:01:07+00:00",
     "stage": "discover",
     "actor": "agent_runtime",
     "message": "Ranked local signals.",
@@ -123,25 +123,25 @@
     }
   },
   {
-    "timestamp": "2026-03-18T21:43:53+00:00",
+    "timestamp": "2026-03-18T23:01:07+00:00",
     "stage": "plan",
     "actor": "agent_runtime",
     "message": "Built bounded plan.",
     "details": {
-      "plan_id": "0x0e720662f857b187dc892088280387771f4cdd2d12cda737e20b56c2d89701df"
+      "plan_id": "0xefd41941148e132fbc2b3d69706b8c3c4c5041ede6880853ecb64deb31325f2c"
     }
   },
   {
-    "timestamp": "2026-03-18T21:43:53+00:00",
+    "timestamp": "2026-03-18T23:01:07+00:00",
     "stage": "dry_run",
     "actor": "agent_runtime",
     "message": "Prepared partner previews.",
     "details": {
-      "simulation_hash": "0x8c9bf81fd03c56368392e2fc223072e29683b4ef431be949685d7253f933b6b3"
+      "simulation_hash": "0x3f2a6353b3e9cd0ceffc2a4221031ebc9b5eb0dd79cf660af8f16bd033c19342"
     }
   },
   {
-    "timestamp": "2026-03-18T21:43:53+00:00",
+    "timestamp": "2026-03-18T23:01:07+00:00",
     "stage": "execute",
     "actor": "agent_runtime",
     "message": "Skipped live execution.",
@@ -161,7 +161,7 @@
     }
   },
   {
-    "timestamp": "2026-03-18T21:43:53+00:00",
+    "timestamp": "2026-03-18T23:01:07+00:00",
     "stage": "verify",
     "actor": "agent_runtime",
     "message": "Wrote verification.",
@@ -169,11 +169,11 @@
       "status": "verified",
       "project_name": "CreditLoop Perps Agent",
       "track": "Bond.credit Agents that Pay",
-      "plan_id": "0x0e720662f857b187dc892088280387771f4cdd2d12cda737e20b56c2d89701df",
-      "simulation_hash": "0x8c9bf81fd03c56368392e2fc223072e29683b4ef431be949685d7253f933b6b3",
+      "plan_id": "0xefd41941148e132fbc2b3d69706b8c3c4c5041ede6880853ecb64deb31325f2c",
+      "simulation_hash": "0x3f2a6353b3e9cd0ceffc2a4221031ebc9b5eb0dd79cf660af8f16bd033c19342",
       "execution_status": "awaiting_credentials",
       "tx_ids": [],
-      "created_at": "2026-03-18T21:43:53+00:00"
+      "created_at": "2026-03-18T23:01:07+00:00"
     }
   }
 ]
