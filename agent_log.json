@@ -7,5 +7,579 @@
     "details": {
       "status": "ready_for_credentials"
     }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:01+00:00",
+    "stage": "discover",
+    "actor": "agent_runtime",
+    "message": "Ranked local signals.",
+    "details": {
+      "signals": [
+        {
+          "name": "market_route",
+          "description": "Quotes, liquidity windows, and execution candidates.",
+          "score": 95
+        },
+        {
+          "name": "risk_policy",
+          "description": "Caps, cooldowns, and verification gates.",
+          "score": 90
+        },
+        {
+          "name": "execution_bundle",
+          "description": "Prepared route and settlement metadata.",
+          "score": 85
+        },
+        {
+          "name": "receipts",
+          "description": "Trade digests, proofs, and reporting notes.",
+          "score": 80
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:01+00:00",
+    "stage": "plan",
+    "actor": "agent_runtime",
+    "message": "Built bounded plan.",
+    "details": {
+      "plan_id": "0x6024922d19cdde17fdc1777cc1f3917a6c325c30a9a6067aea09d5a3750484ca"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:01+00:00",
+    "stage": "dry_run",
+    "actor": "agent_runtime",
+    "message": "Prepared partner previews.",
+    "details": {
+      "simulation_hash": "0x6fd00209e6a9c9791cd88280d4c58e2c104fd911f7cf1cf32672c1c679413511"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:01+00:00",
+    "stage": "execute",
+    "actor": "agent_runtime",
+    "message": "Skipped live execution.",
+    "details": {
+      "missing_env": [
+        "BANKR_API_KEY",
+        "BANKR_CHAT_COMPLETIONS_URL",
+        "BANKR_MODEL",
+        "BOND_CREDIT_PROFILE_URL",
+        "GMX_ORDER_URL",
+        "LOCUS_API_KEY",
+        "LOCUS_PAYMENT_URL",
+        "RPC_URL",
+        "UNISWAP_API_KEY",
+        "UNISWAP_QUOTE_URL"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:01+00:00",
+    "stage": "verify",
+    "actor": "agent_runtime",
+    "message": "Wrote verification.",
+    "details": {
+      "status": "verified",
+      "project_name": "CreditLoop Perps Agent",
+      "track": "Bond.credit Agents that Pay",
+      "plan_id": "0x6024922d19cdde17fdc1777cc1f3917a6c325c30a9a6067aea09d5a3750484ca",
+      "simulation_hash": "0x6fd00209e6a9c9791cd88280d4c58e2c104fd911f7cf1cf32672c1c679413511",
+      "execution_status": "awaiting_credentials",
+      "tx_ids": [],
+      "created_at": "2026-03-19T03:30:01+00:00"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:01+00:00",
+    "stage": "discover",
+    "actor": "agent_runtime",
+    "message": "Ranked local signals.",
+    "details": {
+      "signals": [
+        {
+          "name": "market_route",
+          "description": "Quotes, liquidity windows, and execution candidates.",
+          "score": 95
+        },
+        {
+          "name": "risk_policy",
+          "description": "Caps, cooldowns, and verification gates.",
+          "score": 90
+        },
+        {
+          "name": "execution_bundle",
+          "description": "Prepared route and settlement metadata.",
+          "score": 85
+        },
+        {
+          "name": "receipts",
+          "description": "Trade digests, proofs, and reporting notes.",
+          "score": 80
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:01+00:00",
+    "stage": "plan",
+    "actor": "agent_runtime",
+    "message": "Built bounded plan.",
+    "details": {
+      "plan_id": "0x6024922d19cdde17fdc1777cc1f3917a6c325c30a9a6067aea09d5a3750484ca"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:01+00:00",
+    "stage": "dry_run",
+    "actor": "agent_runtime",
+    "message": "Prepared partner previews.",
+    "details": {
+      "simulation_hash": "0x6fd00209e6a9c9791cd88280d4c58e2c104fd911f7cf1cf32672c1c679413511"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:01+00:00",
+    "stage": "execute",
+    "actor": "agent_runtime",
+    "message": "Skipped live execution.",
+    "details": {
+      "missing_env": [
+        "BANKR_API_KEY",
+        "BANKR_CHAT_COMPLETIONS_URL",
+        "BANKR_MODEL",
+        "BOND_CREDIT_PROFILE_URL",
+        "GMX_ORDER_URL",
+        "LOCUS_API_KEY",
+        "LOCUS_PAYMENT_URL",
+        "RPC_URL",
+        "UNISWAP_API_KEY",
+        "UNISWAP_QUOTE_URL"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:01+00:00",
+    "stage": "verify",
+    "actor": "agent_runtime",
+    "message": "Wrote verification.",
+    "details": {
+      "status": "verified",
+      "project_name": "CreditLoop Perps Agent",
+      "track": "Bond.credit Agents that Pay",
+      "plan_id": "0x6024922d19cdde17fdc1777cc1f3917a6c325c30a9a6067aea09d5a3750484ca",
+      "simulation_hash": "0x6fd00209e6a9c9791cd88280d4c58e2c104fd911f7cf1cf32672c1c679413511",
+      "execution_status": "awaiting_credentials",
+      "tx_ids": [],
+      "created_at": "2026-03-19T03:30:01+00:00"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:39:23.678178+00:00",
+    "stage": "security_review",
+    "actor": "audit_pass",
+    "message": "Completed the shared hardening and offline-artifact audit pass.",
+    "details": {
+      "status": "audited_ready_pending_live_credentials",
+      "primary_contract": "CreditLoopController.sol"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:48:43+00:00",
+    "stage": "discover",
+    "actor": "agent_runtime",
+    "message": "Ranked local signals.",
+    "details": {
+      "signals": [
+        {
+          "name": "market_route",
+          "description": "Quotes, liquidity windows, and execution candidates.",
+          "score": 95
+        },
+        {
+          "name": "risk_policy",
+          "description": "Caps, cooldowns, and verification gates.",
+          "score": 90
+        },
+        {
+          "name": "execution_bundle",
+          "description": "Prepared route and settlement metadata.",
+          "score": 85
+        },
+        {
+          "name": "receipts",
+          "description": "Trade digests, proofs, and reporting notes.",
+          "score": 80
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:48:43+00:00",
+    "stage": "plan",
+    "actor": "agent_runtime",
+    "message": "Built bounded plan for every repo action.",
+    "details": {
+      "plan_id": "0x94b477f380ed4f98d828560aaa83198fdc8f96eedeb04e1326d69c275816766b",
+      "action_count": 7
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:48:43+00:00",
+    "stage": "dry_run",
+    "actor": "agent_runtime",
+    "message": "Prepared partner previews.",
+    "details": {
+      "simulation_hash": "0xa7b77bde5cd28e89128dd29004cdf4bce4fff61565249ae891a916cc2678690c"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:48:43+00:00",
+    "stage": "execute",
+    "actor": "agent_runtime",
+    "message": "Prepared offline artifacts and skipped network execution.",
+    "details": {
+      "missing_env": [
+        "BANKR_API_KEY",
+        "BANKR_CHAT_COMPLETIONS_URL",
+        "BANKR_MODEL",
+        "BOND_CREDIT_PROFILE_URL",
+        "GMX_ORDER_URL",
+        "LOCUS_API_KEY",
+        "LOCUS_PAYMENT_URL",
+        "UNISWAP_API_KEY",
+        "UNISWAP_QUOTE_URL"
+      ],
+      "artifact_count": 3
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:48:43+00:00",
+    "stage": "verify",
+    "actor": "agent_runtime",
+    "message": "Wrote verification.",
+    "details": {
+      "status": "verified",
+      "project_name": "CreditLoop Perps Agent",
+      "track": "Bond.credit Agents that Pay",
+      "plan_id": "0x94b477f380ed4f98d828560aaa83198fdc8f96eedeb04e1326d69c275816766b",
+      "simulation_hash": "0xa7b77bde5cd28e89128dd29004cdf4bce4fff61565249ae891a916cc2678690c",
+      "execution_status": "offline_prepared",
+      "tx_ids": [],
+      "artifact_paths": [
+        "artifacts/onchain_intents/lido_yield_route.json",
+        "artifacts/onchain_intents/erc_8004_receipts_receipt_anchor.json",
+        "artifacts/onchain_intents/metamask_delegations_delegate_scope.json"
+      ],
+      "partner_statuses": {
+        "Bond.credit": "awaiting_credentials",
+        "Bankr Gateway": "awaiting_credentials",
+        "Uniswap": "awaiting_credentials",
+        "Lido": "prepared_contract_call",
+        "ERC-8004 Receipts": "prepared_contract_call",
+        "PayWithLocus": "awaiting_credentials",
+        "MetaMask Delegations": "prepared_contract_call"
+      },
+      "created_at": "2026-03-19T03:48:43+00:00"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:50:39+00:00",
+    "stage": "discover",
+    "actor": "agent_runtime",
+    "message": "Ranked local signals.",
+    "details": {
+      "signals": [
+        {
+          "name": "market_route",
+          "description": "Quotes, liquidity windows, and execution candidates.",
+          "score": 95
+        },
+        {
+          "name": "risk_policy",
+          "description": "Caps, cooldowns, and verification gates.",
+          "score": 90
+        },
+        {
+          "name": "execution_bundle",
+          "description": "Prepared route and settlement metadata.",
+          "score": 85
+        },
+        {
+          "name": "receipts",
+          "description": "Trade digests, proofs, and reporting notes.",
+          "score": 80
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:50:39+00:00",
+    "stage": "plan",
+    "actor": "agent_runtime",
+    "message": "Built bounded plan for every repo action.",
+    "details": {
+      "plan_id": "0x92950bb63ca50d3fffe7d3c79cf05527e942053dba443129dedfb4ab5f74517c",
+      "action_count": 7
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:50:39+00:00",
+    "stage": "dry_run",
+    "actor": "agent_runtime",
+    "message": "Prepared partner previews.",
+    "details": {
+      "simulation_hash": "0xa32239ca9429c9ae01213eee30c88bc0cc89eb1afacaad134e08d02d0740ef3c"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:50:39+00:00",
+    "stage": "execute",
+    "actor": "agent_runtime",
+    "message": "Prepared offline artifacts and skipped network execution.",
+    "details": {
+      "missing_env": [
+        "BANKR_API_KEY",
+        "BANKR_CHAT_COMPLETIONS_URL",
+        "BANKR_MODEL",
+        "BOND_CREDIT_PROFILE_URL",
+        "GMX_ORDER_URL",
+        "LOCUS_API_KEY",
+        "LOCUS_PAYMENT_URL",
+        "UNISWAP_API_KEY",
+        "UNISWAP_QUOTE_URL"
+      ],
+      "artifact_count": 3
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:50:39+00:00",
+    "stage": "verify",
+    "actor": "agent_runtime",
+    "message": "Wrote verification.",
+    "details": {
+      "status": "verified",
+      "project_name": "CreditLoop Perps Agent",
+      "track": "Bond.credit Agents that Pay",
+      "plan_id": "0x92950bb63ca50d3fffe7d3c79cf05527e942053dba443129dedfb4ab5f74517c",
+      "simulation_hash": "0xa32239ca9429c9ae01213eee30c88bc0cc89eb1afacaad134e08d02d0740ef3c",
+      "execution_status": "offline_prepared",
+      "tx_ids": [],
+      "artifact_paths": [
+        "artifacts/onchain_intents/lido_yield_route.json",
+        "artifacts/onchain_intents/erc_8004_receipts_receipt_anchor.json",
+        "artifacts/onchain_intents/metamask_delegations_delegate_scope.json"
+      ],
+      "partner_statuses": {
+        "Bond.credit": "awaiting_credentials",
+        "Bankr Gateway": "awaiting_credentials",
+        "Uniswap": "awaiting_credentials",
+        "Lido": "prepared_contract_call",
+        "ERC-8004 Receipts": "prepared_contract_call",
+        "PayWithLocus": "awaiting_credentials",
+        "MetaMask Delegations": "prepared_contract_call"
+      },
+      "created_at": "2026-03-19T03:50:39+00:00"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:51:47+00:00",
+    "stage": "discover",
+    "actor": "agent_runtime",
+    "message": "Ranked local signals.",
+    "details": {
+      "signals": [
+        {
+          "name": "market_route",
+          "description": "Quotes, liquidity windows, and execution candidates.",
+          "score": 95
+        },
+        {
+          "name": "risk_policy",
+          "description": "Caps, cooldowns, and verification gates.",
+          "score": 90
+        },
+        {
+          "name": "execution_bundle",
+          "description": "Prepared route and settlement metadata.",
+          "score": 85
+        },
+        {
+          "name": "receipts",
+          "description": "Trade digests, proofs, and reporting notes.",
+          "score": 80
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:51:47+00:00",
+    "stage": "plan",
+    "actor": "agent_runtime",
+    "message": "Built bounded plan for every repo action.",
+    "details": {
+      "plan_id": "0x31df09d4a02f4a816e11cb03af81f156cf15f6b18688541b087ad73e5bc44d25",
+      "action_count": 7
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:51:47+00:00",
+    "stage": "dry_run",
+    "actor": "agent_runtime",
+    "message": "Prepared partner previews.",
+    "details": {
+      "simulation_hash": "0x82b54413344731c3233a25ea563636b6d2adae12693ff3170746fd8b991b4a27"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:51:47+00:00",
+    "stage": "execute",
+    "actor": "agent_runtime",
+    "message": "Prepared offline artifacts and skipped network execution.",
+    "details": {
+      "missing_env": [
+        "BANKR_API_KEY",
+        "BANKR_CHAT_COMPLETIONS_URL",
+        "BANKR_MODEL",
+        "BOND_CREDIT_PROFILE_URL",
+        "GMX_ORDER_URL",
+        "LOCUS_API_KEY",
+        "LOCUS_PAYMENT_URL",
+        "UNISWAP_API_KEY",
+        "UNISWAP_QUOTE_URL"
+      ],
+      "artifact_count": 3
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:51:47+00:00",
+    "stage": "verify",
+    "actor": "agent_runtime",
+    "message": "Wrote verification.",
+    "details": {
+      "status": "verified",
+      "project_name": "CreditLoop Perps Agent",
+      "track": "Bond.credit Agents that Pay",
+      "plan_id": "0x31df09d4a02f4a816e11cb03af81f156cf15f6b18688541b087ad73e5bc44d25",
+      "simulation_hash": "0x82b54413344731c3233a25ea563636b6d2adae12693ff3170746fd8b991b4a27",
+      "execution_status": "offline_prepared",
+      "tx_ids": [],
+      "artifact_paths": [
+        "artifacts/onchain_intents/lido_yield_route.json",
+        "artifacts/onchain_intents/erc_8004_receipts_receipt_anchor.json",
+        "artifacts/onchain_intents/metamask_delegations_delegate_scope.json"
+      ],
+      "partner_statuses": {
+        "Bond.credit": "awaiting_credentials",
+        "Bankr Gateway": "awaiting_credentials",
+        "Uniswap": "awaiting_credentials",
+        "Lido": "prepared_contract_call",
+        "ERC-8004 Receipts": "prepared_contract_call",
+        "PayWithLocus": "awaiting_credentials",
+        "MetaMask Delegations": "prepared_contract_call"
+      },
+      "created_at": "2026-03-19T03:51:47+00:00"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:52:09+00:00",
+    "stage": "discover",
+    "actor": "agent_runtime",
+    "message": "Ranked local signals.",
+    "details": {
+      "signals": [
+        {
+          "name": "market_route",
+          "description": "Quotes, liquidity windows, and execution candidates.",
+          "score": 95
+        },
+        {
+          "name": "risk_policy",
+          "description": "Caps, cooldowns, and verification gates.",
+          "score": 90
+        },
+        {
+          "name": "execution_bundle",
+          "description": "Prepared route and settlement metadata.",
+          "score": 85
+        },
+        {
+          "name": "receipts",
+          "description": "Trade digests, proofs, and reporting notes.",
+          "score": 80
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:52:09+00:00",
+    "stage": "plan",
+    "actor": "agent_runtime",
+    "message": "Built bounded plan for every repo action.",
+    "details": {
+      "plan_id": "0xdfbff0103050a5068456dddceaf368bf90fce921c02404cd72612270911f0338",
+      "action_count": 7
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:52:09+00:00",
+    "stage": "dry_run",
+    "actor": "agent_runtime",
+    "message": "Prepared partner previews.",
+    "details": {
+      "simulation_hash": "0xc460d6b8d78dc35fe6175d4edcf74a87efe33cc09883316670ba1d43470efc76"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:52:09+00:00",
+    "stage": "execute",
+    "actor": "agent_runtime",
+    "message": "Prepared offline artifacts and skipped network execution.",
+    "details": {
+      "missing_env": [
+        "BANKR_API_KEY",
+        "BANKR_CHAT_COMPLETIONS_URL",
+        "BANKR_MODEL",
+        "BOND_CREDIT_PROFILE_URL",
+        "GMX_ORDER_URL",
+        "LOCUS_API_KEY",
+        "LOCUS_PAYMENT_URL",
+        "UNISWAP_API_KEY",
+        "UNISWAP_QUOTE_URL"
+      ],
+      "artifact_count": 3
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:52:09+00:00",
+    "stage": "verify",
+    "actor": "agent_runtime",
+    "message": "Wrote verification.",
+    "details": {
+      "status": "verified",
+      "project_name": "CreditLoop Perps Agent",
+      "track": "Bond.credit Agents that Pay",
+      "plan_id": "0xdfbff0103050a5068456dddceaf368bf90fce921c02404cd72612270911f0338",
+      "simulation_hash": "0xc460d6b8d78dc35fe6175d4edcf74a87efe33cc09883316670ba1d43470efc76",
+      "execution_status": "offline_prepared",
+      "tx_ids": [],
+      "artifact_paths": [
+        "artifacts/onchain_intents/lido_yield_route.json",
+        "artifacts/onchain_intents/erc_8004_receipts_receipt_anchor.json",
+        "artifacts/onchain_intents/metamask_delegations_delegate_scope.json"
+      ],
+      "partner_statuses": {
+        "Bond.credit": "awaiting_credentials",
+        "Bankr Gateway": "awaiting_credentials",
+        "Uniswap": "awaiting_credentials",
+        "Lido": "prepared_contract_call",
+        "ERC-8004 Receipts": "prepared_contract_call",
+        "PayWithLocus": "awaiting_credentials",
+        "MetaMask Delegations": "prepared_contract_call"
+      },
+      "created_at": "2026-03-19T03:52:09+00:00"
+    }
   }
 ]
