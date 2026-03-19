@@ -5,7 +5,7 @@
 - **Category:** trading
 - **Primary contract:** `CreditLoopController`
 - **Primary module:** `bondcredit_agent`
-- **Submission status:** implementation ready, waiting for credentials and TxIDs.
+- **Submission status:** audited and offline-demo ready; optional live partner credentials unlock network execution.
 
 ## What this repo does
 
@@ -67,6 +67,33 @@ flowchart TD
 3. Persist a dry-run artifact before any live execution.
 4. Enforce onchain policy through the guarded contract wrapper.
 5. Verify outputs, update receipts, and render submission material.
+
+## Current readiness
+
+- **Latest verification:** `verified` at `2026-03-19T03:52:09+00:00`
+- **Execution mode:** `offline_prepared`
+- **Offline-prepared partners:** Lido (prepared_contract_call), ERC-8004 Receipts (prepared_contract_call), MetaMask Delegations (prepared_contract_call)
+- **Live credential blockers:** Bond.credit, Bankr Gateway, Uniswap, PayWithLocus
+- **Audit docs:** `docs/audit.md`, `docs/live_readiness.md`
+
+## Most sensitive actions
+
+- `bond_credit_credit_trade` (Bond.credit, high)
+- `bankr_gateway_compute_route` (Bankr Gateway, high)
+- `metamask_delegations_delegate_scope` (MetaMask Delegations, high)
+
+## Live blocker details
+
+- **Bond.credit** — GMX_ORDER_URL, BOND_CREDIT_PROFILE_URL — https://bond.credit/
+- **Bankr Gateway** — BANKR_API_KEY, BANKR_CHAT_COMPLETIONS_URL, BANKR_MODEL — https://bankr.bot/
+- **Uniswap** — UNISWAP_API_KEY, UNISWAP_QUOTE_URL — https://developers.uniswap.org/
+- **PayWithLocus** — LOCUS_API_KEY, LOCUS_PAYMENT_URL — https://docs.locus.finance/
+
+## Latest evidence artifacts
+
+- `artifacts/onchain_intents/lido_yield_route.json`
+- `artifacts/onchain_intents/erc_8004_receipts_receipt_anchor.json`
+- `artifacts/onchain_intents/metamask_delegations_delegate_scope.json`
 
 ## Security controls
 
